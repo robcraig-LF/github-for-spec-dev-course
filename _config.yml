@@ -1,0 +1,13 @@
+title: GitHub for Open-Source Technical Specification Development
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - chapter-1.md
+      - chapter-2.md
+
+nav_sort: case_insensitive
